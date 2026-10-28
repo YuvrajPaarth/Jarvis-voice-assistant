@@ -1,0 +1,54 @@
+# -----------------------------------------------
+# SECURITY — never commit these
+# -----------------------------------------------
+# Jarvis config holds your Gemini API key + PIN hash
+.jarvis/
+~/.jarvis/
+
+# -----------------------------------------------
+# Local data — large, machine-specific
+# -----------------------------------------------
+chroma_db/
+jarvis_brain/
+jarvis_context.cache
+index_cache.json
+
+# -----------------------------------------------
+# Python
+# -----------------------------------------------
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+venv/
+.venv/
+*.pkl
+*.egg-info/
+dist/
+build/
+
+# -----------------------------------------------
+# Model weights (re-downloadable, never commit)
+# -----------------------------------------------
+*.pt
+*.bin
+*.onnx
+*.safetensors
+
+# -----------------------------------------------
+# macOS
+# -----------------------------------------------
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# -----------------------------------------------
+# Scratch / prototype files (not part of project)
+# -----------------------------------------------
+Trial.py
+mini1_reader.py
+mini2_chopper.py
+mini3_ollama.py
+mini4_voice_assistant.py
+assistant.yaml
+assistant.png
