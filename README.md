@@ -2,7 +2,7 @@
 
 A wake-word-activated voice assistant that runs **entirely on your Mac** — no cloud, no subscriptions, no data leaving your machine (unless you switch to online mode).
 
-> 📹 **[Watch the demo →](#)** *(replace this with your YouTube unlisted link)*
+offcampus c: 3ERU2G
 
 ---
 
